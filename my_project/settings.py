@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'my_app',
 ]
 
 MIDDLEWARE = [
@@ -118,7 +119,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
-    BASE_DIR / "static",  # Der zusätzliche statische Ordner
+    BASE_DIR / "my_project/static",  # Der zusätzliche statische Ordner
 ]
 
 STATIC_ROOT = BASE_DIR / "my_project/staticfiles"  # Der Ordner, in dem die gesammelten statischen Dateien gespeichert werden
