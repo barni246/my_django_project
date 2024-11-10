@@ -8,6 +8,10 @@ __pycache__/
 media/
 logs/
 .env
+db.sqlite3
+db.sqlite3/
+/db.sqlite3
+/db.sqlite3/
 static/
 /static/
 staticfiles/
